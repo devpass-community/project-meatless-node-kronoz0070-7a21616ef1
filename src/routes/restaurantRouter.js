@@ -3,7 +3,7 @@ const { addRestaurantEndpoint, getRestaurantsEndpoint } = require('../controller
 
 const restaurantRouter = Router();
 
-restaurantRouter.post('/restaurants', addRestaurantEndpoint)
-restaurantRouter.get("/restaurants", getRestaurantsEndpoint);
+restaurantRouter.post('/restaurant', addRestaurantEndpoint)
+restaurantRouter.get("/restaurant", getRestaurantsEndpoint);
 
 module.exports = { restaurantRouter };
